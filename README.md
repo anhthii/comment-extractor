@@ -1,6 +1,8 @@
 # Comment Extractor
 > Extract all comments from a javascript project
 
+### Currently only supporting js and jsx extesion
+
 ## Install
 ```console
 $ npm install -g node-comment-extractor
@@ -13,10 +15,10 @@ $ npm install --save-dev node-comment-extractor
 ```console
 $ comment-extractor -e your-project
 ```
-![comments-image](https://image.ibb.co/hDbwpm/comment.png)
+![comments-image](screenshots/comment.PNG)
 > output
 
-![output-image](https://image.ibb.co/cV8vX6/result.png)
+![output-image](screenshots/result.PNG)
 
 ### write comments to a file
 ```console
