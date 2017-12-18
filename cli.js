@@ -9,7 +9,7 @@ var readFilePromise = promisify(fs.readFile)
 var readDirPromise = promisify(fs.readdir)
 
 cli
-  .version('1.0.0')
+  .version('1.0.1')
   .option('-e, --extract <filename | foldername>', 'extract comments and log to console')
   .option('-w, --write <filename>', 'extract comments and write to a file')
   .parse(process.argv)

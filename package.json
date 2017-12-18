@@ -1,6 +1,6 @@
 {
-  "name": "comment-extractor",
-  "version": "1.0.0",
+  "name": "node-comment-extractor",
+  "version": "1.0.1",
   "repository": "dkakashi69/comment-extractor",
   "description": "Extract all comments from a javascript project",
   "main": "index.js",
@@ -9,12 +9,14 @@
     "comment",
     "extractor",
     "extract"
-	],
+  ],
   "bin": {
-    "comment-extractor": "./"
+    "comment-extractor": "cli.js"
   },
   "dependencies": {
     "chalk": "^2.3.0",
-    "commander": "^2.12.2"
+    "commander": "^2.12.2",
+    "global": "^4.3.2",
+    "node-comment-extractor": "^1.0.0"
   }
 }
