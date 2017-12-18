@@ -1,0 +1,20 @@
+{
+  "name": "comment-extractor",
+  "version": "1.0.0",
+  "repository": "dkakashi69/comment-extractor",
+  "description": "Extract all comments from a javascript project",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "comment",
+    "extractor",
+    "extract"
+	],
+  "bin": {
+    "comment-extractor": "./"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2"
+  }
+}
